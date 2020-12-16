@@ -1,0 +1,153 @@
+html,body
+{
+  margin:0;
+  padding:0;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Navigation bar design */
+.navbar{
+  background-color: black;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+
+/* footer design */
+.payment{
+  margin-bottom: 10px;
+  width:50px;
+  height: 40px; 
+}
+
+.footer_icon>a>i{
+  font-size: 30px;
+}
+
+#go_top{
+  font-size:40px;
+  position: absolute;
+  right: 20px;
+}
+
+/* Index Page Design */
+h1{
+  text-align:center;
+  padding:35px;
+  text-transform: uppercase;
+}
+
+.hotsales{
+  margin-bottom: 5px;
+}
+
+.hotPrice{
+  font-size: 20px;
+}
+
+.category{
+    
+  width: 80%;
+  max-width: 80%;
+  height: 80%;
+  max-height: 80%;
+}
+.category1{
+    
+  width: 80%;
+  max-width: 80%;
+  height: 50%;
+  max-height: 50%;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: #ffc107;
+  padding:5px;
+  text-transform: uppercase;
+}
+
+.partner{
+  margin-top: 20px;
+  width: 120px;
+  height: 100px;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size:30px;
+  }
+  .text-block>h3 {
+    font-size:15px;
+  }
+}
+
+/*Contact page design*/
+#comment_submit{
+  font-size: 20px;
+  border-radius: 5px;
+  width:150px;
+}
+.map-container-3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-3 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* Shop Page Design*/
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+.img-fluid {
+  width: 80%;
+  max-width: 80%;
+  height: 80%;
+  max-height: 80%;
+}
+
+/* Quick view Page Design*/
